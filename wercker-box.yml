@@ -10,7 +10,7 @@ keywords:
   - berskshelf
 script: |
   sudo gem install octorelease --no-ri --no-rdoc
-  sudo gem install berkshelf -v 2.0.15 --no-ri --no-rdoc
+  sudo gem install berkshelf   --no-ri --no-rdoc
   wget https://dl.bintray.com/mitchellh/vagrant/vagrant_1.5.1_x86_64.deb
   sudo dpkg -i vagrant_1.5.1_x86_64.deb
   vagrant plugin install vagrant-digitalocean
