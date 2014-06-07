@@ -1,5 +1,5 @@
 name: serverspec-base
-version: 0.0.1
+version: 0.0.2
 inherits: wercker/ruby@1.0.0
 type: main
 platform: ubuntu@12.04
@@ -9,7 +9,6 @@ keywords:
   - specinfra
   - berskshelf
 script: |
-  sudo gem install rspec       --no-ri --no-rdoc
   sudo gem install octorelease --no-ri --no-rdoc
   sudo gem install berkshelf -v 2.0.15 --no-ri --no-rdoc
   wget https://dl.bintray.com/mitchellh/vagrant/vagrant_1.5.1_x86_64.deb
