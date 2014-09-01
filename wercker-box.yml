@@ -1,5 +1,5 @@
 name: serverspec-base
-version: 0.0.4
+version: 0.0.5
 inherits: wercker/ruby@1.0.0
 type: main
 platform: ubuntu@12.04
