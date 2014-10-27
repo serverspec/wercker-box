@@ -1,5 +1,5 @@
 name: serverspec-base
-version: 0.0.5
+version: 0.0.6
 inherits: wercker/ruby@1.0.0
 type: main
 platform: ubuntu@12.04
@@ -8,6 +8,6 @@ keywords:
   - serverspec
   - specinfra
 script: |
-  wget https://dl.bintray.com/mitchellh/vagrant/vagrant_1.6.3_x86_64.deb
-  sudo dpkg -i vagrant_1.6.3_x86_64.deb
-  vagrant plugin install vagrant-digitalocean
+  wget https://dl.bintray.com/mitchellh/vagrant/vagrant_1.6.5_x86_64.deb
+  sudo dpkg -i vagrant_1.6.5_x86_64.deb
+  vagrant plugin install vagrant-digitalocean-0.7.0.gem
